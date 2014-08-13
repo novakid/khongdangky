@@ -1,0 +1,29 @@
+# Site settings
+name: khongdangky
+description: "greatest webdeveloper from somewhere on the eath."
+baseurl: ""
+url: "http://yourdomain.com"
+
+# Social defining
+email: sedangky@yahoo.com
+github:
+pinterest:
+facebook:
+twitter:
+
+# if using google font or icon font, please putting it here
+# I'd like to use Cousine, Open Sans and FontAwesome
+fonts:
+- url: "http://fonts.googleapis.com/css?family=Cousine:400,700,400italic,700italic&subset=latin,vietnamese,latin-ext"
+- url: "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700&subset=latin,vietnamese,latin-ext"
+- url: "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# I prefer to use sass
+sass:
+  sass_dir: _scss
+  style: :expanded
