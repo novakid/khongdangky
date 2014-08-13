@@ -1,7 +1,7 @@
 # Site settings
 name: khongdangky
 description: "greatest webdeveloper from somewhere on the eath."
-baseurl: ""
+baseurl: "/khongdangky"
 url: "http://yourdomain.com"
 
 # Social defining
