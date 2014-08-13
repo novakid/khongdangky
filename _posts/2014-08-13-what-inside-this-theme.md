@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tôi làm những gì với theme này?
+title: How to use this theme?
 tags:
 - jekyll
 - theme
