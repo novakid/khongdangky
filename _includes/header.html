@@ -1,0 +1,18 @@
+<header class="outer">
+
+  <div class="inner">
+  	<div class="left brand">
+    	<a class="site-title" href="{{ site.baseurl }}/">{{ site.name }}</a>
+    </div>
+
+    <div class="right site-navigator">
+        {% for page in site.pages %}
+        {% if page.tags == "topnav" %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endif %}
+        {% endfor %}
+    </div>
+
+  </div>
+
+</header>

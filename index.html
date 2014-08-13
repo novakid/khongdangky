@@ -1,0 +1,26 @@
+---
+layout: default
+background:
+- url: bg01.svg
+- url: bg02.svg
+- url: bg03.svg
+---
+
+<div class="outer">
+  {% for post in site.posts limit:10 %}
+  {% if post.kind == "slideshow" %}
+    <div class="slide-post">
+      {{ post.content }}
+    </div>
+  {% else %}
+    <div class="inner">
+      <div class="block">
+        <div class="posts">
+            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            {{ post.content }}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,35 @@
+---
+
+---
+
+/* style by xabeng.github.io */
+
+@import "_normalize";
+@import "_variable";
+
+
+
+html { fon-size: 100%; }
+body { font: 14px/1.8 $mono; }
+a { text-decoration: none; }
+
+.outer {  }
+.inner { width: 80%; max-width: $width; margin: 0 auto;  }
+.block { background: rgba(255,255,255,0.8); padding: 5em 10em; }
+
+header {
+	background: rgba(0,0,0,0.2);
+	padding-top: 50px; 
+
+	a { display: inline-block; padding: 1em; color: #fff; background: $primary-color; }
+	a:hover { background: #000; }
+}
+
+
+footer {
+	
+	a { color:$secondary-color; }
+	a:hover { color: #000; }
+}
+
+.slick-slideshow { width:$width; margin: 0 auto; }
