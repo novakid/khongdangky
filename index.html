@@ -12,6 +12,11 @@ background:
     <div class="slide-post">
       {{ post.content }}
     </div>
+  {% elsif post.kind == "photo" %}
+    <div class="photo-post">
+      {{ post.content }}
+      {% if post.caption %}<p class="photo-caption">{{ post.caption }}</p>{% endif %}
+    </div>
   {% else %}
     <div class="inner">
       <div class="post-block">
