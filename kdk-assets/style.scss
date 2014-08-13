@@ -6,16 +6,23 @@
 
 @import "_normalize";
 @import "_variable";
+@import "_slick";
 
 
 
 html { fon-size: 100%; }
 body { font: 14px/1.8 $mono; }
 a { text-decoration: none; }
+code, pre { font-family: $mono; color: $secondary-color;}
 
 .outer {  }
 .inner { width: 80%; max-width: $width; margin: 0 auto;  }
-.block { background: rgba(255,255,255,0.8); padding: 5em 10em; }
+.post-block { 
+	background: rgba(255,255,255,0.8); 
+	padding: 5em 10em; 
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ccc;
+}
 
 header {
 	background: rgba(0,0,0,0.2);
@@ -32,4 +39,13 @@ footer {
 	a:hover { color: #000; }
 }
 
-.slick-slideshow { width:$width; margin: 0 auto; }
+.slide-post {
+	background: rgba(0,0,0,0.1);
+}
+.slick-slideshow { 
+	width: 80%;
+	max-width:$width;
+	margin: 0 auto;
+	img { width: 100%; }
+ }
+
