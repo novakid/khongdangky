@@ -17,7 +17,14 @@ code, pre { font-family: $mono; color: $secondary-color;}
 .left { float: left; } .right { float: right; }
 .clear { clear: both; }
 
-.inner { width: 80%; max-width: $width; margin: 0 auto;  }
+.inner { 
+	width: 80%; 
+	max-width: $width; 
+	margin: 0 auto;
+
+	@media screen and (max-width: 760px) { width: 90%; }
+}
+
 .post-block { 
 	background: rgba(250,250,250,0.8); 
 	padding: 5em 10em; 
@@ -26,6 +33,8 @@ code, pre { font-family: $mono; color: $secondary-color;}
 
 	a { color: $link-color; }
 	.post-meta { font-size: 12px; }
+
+	@media screen and (max-width:760px) { padding: 1em; }
 }
 
 header {
@@ -52,6 +61,8 @@ footer {
 	max-width:$width;
 	margin: 0 auto;
 	img { width: 100%; }
+
+	@media screen and (max-width: 760px) { width: 90%; }
  }
 
 .photo-post {
