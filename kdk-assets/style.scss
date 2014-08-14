@@ -10,14 +10,13 @@
 
 
 
-html { fon-size: 100%; }
+html { font-size: 100%; }
 body { font: 14px/1.8 $mono; color: #333; }
 a { text-decoration: none; }
 code, pre { font-family: $mono; color: $secondary-color;}
 .left { float: left; } .right { float: right; }
 .clear { clear: both; }
 
-.outer {  }
 .inner { width: 80%; max-width: $width; margin: 0 auto;  }
 .post-block { 
 	background: rgba(250,250,250,0.8); 
