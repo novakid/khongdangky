@@ -3,7 +3,7 @@ layout: post
 title: Hello World
 ---
 
-Biết đến Jekyll quãng tháng bảy năm ngoái. Mới chỉ dùng để dựng một cái site tĩnh cho khách hàng. Cho đến giờ này website đấy vẫn chạy ổn.
+Biết đến Jekyll quãng tháng bảy năm ngoái. Mới chỉ dùng để dựng một cái site tĩnh cho khách hàng. Cho đến giờ này website đấy vẫn chạy ổn. Ờ!... Một cái static site thì có vấn đề đéo gì... Giờ muốn nó chạy không ổn cũng khó ý chứ hehe...
 
 Tuy nhiên xem lại thấy hồi đấy code thật sự ngớ ngẩn. Giờ làm lại chắc chắn sẽ nhẹ nhàng sáng sủa và dễ dùng hơn nhiều. Hồi đấy làm có quá nhiều thứ phải nhập thủ công, nhiều đoạn lặp đi lặp lại không cần thiết.
 
