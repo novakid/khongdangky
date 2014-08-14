@@ -22,7 +22,7 @@ code, pre { font-family: $mono; color: $secondary-color;}
 	max-width: $width; 
 	margin: 0 auto;
 
-	@media screen and (max-width: 760px) { width: 90%; }
+	@media screen and (max-width: 800px) { width: 90%; }
 }
 
 .post-block { 
@@ -34,7 +34,7 @@ code, pre { font-family: $mono; color: $secondary-color;}
 	a { color: $link-color; }
 	.post-meta { font-size: 12px; }
 
-	@media screen and (max-width:760px) { padding: 1em; }
+	@media screen and (max-width:800px) { padding: 1em; }
 }
 
 header {
@@ -62,7 +62,7 @@ footer {
 	margin: 0 auto;
 	img { width: 100%; }
 
-	@media screen and (max-width: 760px) { width: 90%; }
+	@media screen and (max-width: 800px) { width: 90%; }
  }
 
 .photo-post {
