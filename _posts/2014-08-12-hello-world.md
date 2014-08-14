@@ -3,6 +3,8 @@ layout: post
 title: Hello World
 ---
 
-Trong vòng một tháng trở lại đây làm theme cho Jekyll hơi nhiều. Được cái học hỏi thêm được nhiều kiến thức hay. Tuy nhiên vấn đề lưu lại các thông tin trong quá trình làm thì hơi dở. Nhiều khi làm xong không nhớ là đã làm những gì, thành ra cứ phải mở web lên để tra cứu liên tục.
+Biết đến Jekyll quãng tháng bảy năm ngoái. Mới chỉ dùng để dựng một cái site tĩnh cho khách hàng. Cho đến giờ này website đấy vẫn chạy ổn.
 
-Có cách nào ghi chép lại hiệu quả hơn không nhỉ?
+Tuy nhiên xem lại thấy hồi đấy code thật sự ngớ ngẩn. Giờ làm lại chắc chắn sẽ nhẹ nhàng sáng sủa và dễ dùng hơn nhiều. Hồi đấy làm có quá nhiều thứ phải nhập thủ công, nhiều đoạn lặp đi lặp lại không cần thiết.
+
+Quá trình làm giao diện cho cái blog này cũng vấp nhiều. Tạm lưu lại đây coi như một chút kinh nghiệm.

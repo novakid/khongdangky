@@ -34,15 +34,19 @@ code, pre { font-family: $mono; color: $secondary-color;}
 	a { color: $link-color; }
 	.post-meta { font-size: 12px; }
 
-	@media screen and (max-width:800px) { padding: 1em; }
+	@media screen and (max-width:800px) { padding: 2em; }
 }
 
 header {
 	background: rgba(0,0,0,0.2);
 	padding-top: 50px; 
 
-	a { display: inline-block; padding: 1em 2em; color: #fff; background: #000; }
-	a:hover { background: $primary-color; }
+	a { display: inline-block; padding: 1em 2em; color: #fff; background: #000; 
+
+	&:hover { background: $primary-color; }
+	
+	}
+	
 	.site-header { background: #000; }
 }
 
