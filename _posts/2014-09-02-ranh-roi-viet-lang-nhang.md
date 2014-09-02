@@ -1,3 +1,9 @@
+---
+layout: post
+title: rảnh rỗi viết lăng nhăng
+tags: web developer
+---
+
 Rảnh rỗi mấy ngày nghỉ lễ quốc khánh, thế mà đi chơi cũng không yên thân.
 
 Về sớm giải quyết công việc, xong lượn lờ cafe. Tiện thể xem lại quá trình nghiên cứu web vừa rồi. Vẫn chưa làm được ra cái template nào hoàn chỉnh. Tuy nhiên cũng học hỏi được nhiều thứ.
