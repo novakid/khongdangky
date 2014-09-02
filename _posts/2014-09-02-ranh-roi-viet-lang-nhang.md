@@ -10,7 +10,7 @@ Về sớm giải quyết công việc, xong lượn lờ cafe. Tiện thể xem
 
 Chưa làm được ra cái template nào hoàn chỉnh. Tuy nhiên cũng học hỏi được nhiều thứ. Quan trọng là những thứ có vẻ mù mờ trong quy trình làm việc trước đây hiện đã có hướng giải quyết.
 
-Quyết định dùng [docpad] và [harp] cho các static site. Có thể có những thứ khác hay ho hơn, nhưng trình độ hiện tại chỉ nên dùng mấy thứ đó. Chúng đủ linh hoạt để đáp ứng phần lớn nhu cầu thiết kế web của khách hàng. Chúng không quá khó để phải mất hàng tháng trời ngâm tài liệu. Server hỗ trợ nodejs hơi khó kiếm. Tuy nhiên vẫn có thể compile rồi cho chạy trên host thông thường trong quá trình xây dựng.
+Quyết định dùng [docpad] và [harp] cho các static site. Có thể có những thứ khác hay ho hơn, nhưng trình độ hiện tại chỉ nên dùng mấy thứ đó. Chúng đủ linh hoạt để đáp ứng phần lớn nhu cầu thiết kế web của khách hàng. Chúng không quá khó để phải mất hàng tháng trời ngâm tài liệu. Server hỗ trợ nodejs hơi khó kiếm. Tuy nhiên vẫn có thể compile rồi cho chạy trên host thông thường. Static site mà... Cần gì công nghệ này công nghệ nọ.
 
 Một điểm quan trọng cần nghiên cứu thêm là [stylus] và [sass]. 
 
